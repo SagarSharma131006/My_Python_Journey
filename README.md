@@ -169,7 +169,7 @@ My_Python_Journey/
 | --- | ---------------------- | ----------- |
 | 01  | Data Types             | ✅ Completed |
 | 02  | Operators              | ✅ Completed |
-| 03  | Conditional Statements | ⬜ Pending   |
+| 03  | Conditional Statements | ✅ Completed |
 | 04  | Loops                  | ⬜ Pending   |
 | 05  | Strings                | ⬜ Pending   |
 | 06  | Lists                  | ⬜ Pending   |
