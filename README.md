@@ -1,405 +1,136 @@
-# 🐍 My Python Journey
+🐍 My Python Journey
 
-> **A day-by-day journey to learn, practice, and master Python programming.**
+A collection of my daily Python learning, practice, experiments, exercises, projects, and notes — documenting my journey from Python fundamentals to advanced concepts.
 
-Welcome to my **Python Journey** repository! 🚀
 
-I created this repository to document my Python learning journey and maintain a record of everything I learn and practice along the way.
 
-Instead of learning Python only through theory, my goal is to **learn concepts, write code, practice problems, and document my progress every day**.
 
-This repository will contain my daily Python programs, examples, practice questions, important concepts, and notes.
 
----
+📌 About This Repository
 
-## 🎯 Goals of This Journey
+Welcome to My_Python_Journey!
 
-Through this journey, I aim to:
+This repository is my personal record of learning Python. I will update this repository every day with whatever I learn, practice, or build.
 
-* 🐍 Build a strong foundation in Python
-* 💻 Improve my programming and problem-solving skills
-* 🧠 Understand Python concepts through practical coding
-* 📝 Document my learning consistently
-* 📊 Prepare for Data Science and Machine Learning
-* 🤖 Build a strong programming foundation for AI/ML
-* 🚀 Develop the habit of learning and coding every day
+The main purpose of this repository is not just to collect Python files, but to document my complete learning journey — including:
 
----
+📚 Concepts I learn
 
-## 📚 Python Fundamentals Roadmap
+💻 Programs and coding exercises
 
-| Day | Topic                  |    Status    |
-| :-: | ---------------------- | :----------: |
-|  01 | Data Types             | 🟩 Completed |
-|  02 | Operators              | 🟩 Completed |
-|  03 | Input & Output         | 🟩 Completed |
-|  04 | Conditional Statements | 🟩 Completed |
-|  05 | Loops                  |  🟪 Pending  |
-|  06 | Strings                |  🟪 Pending  |
-|  07 | Lists                  |  🟪 Pending  |
-|  08 | Tuples                 |  🟪 Pending  |
-|  09 | Sets                   |  🟪 Pending  |
-|  10 | Dictionaries           |  🟪 Pending  |
-|  11 | Functions              |  🟪 Pending  |
-|  12 | Recursion              |  🟪 Pending  |
-|  13 | Modules & Packages     |  🟪 Pending  |
-|  14 | Exception Handling     |  🟪 Pending  |
-|  15 | File Handling          |  🟪 Pending  |
-|  16 | Regular Expressions    |  🟪 Pending  |
+🧠 Problem-solving practice
 
----
+📝 Notes and explanations
 
-# 📅 Daily Progress
+🧪 Experiments
 
-## 🟩 Day 01 — Data Types
+🔍 Practice questions
 
-### Topics Covered
+🚀 Mini projects
 
-* Integer (`int`)
-* Float (`float`)
-* String (`str`)
-* Boolean (`bool`)
-* Complex (`complex`)
-* `NoneType`
-* `type()`
-* `isinstance()`
-* Dynamic Typing
-* Variables
+📊 Data analysis experiments
 
-### Key Learning
+🤖 Machine Learning implementations
 
-Python is a **dynamically typed language**, which means we don't need to explicitly declare the data type of a variable.
+🔧 Useful Python techniques
 
-```python
-x = 10
-x = "Python"
-```
+📈 My progress over time
 
-The same variable can hold values of different data types.
+Every day, I will try to add something new.
 
----
+One Day → One Topic → One File → One Step Forward.
 
-## 🟩 Day 02 — Operators
+🎯 My Goal
 
-### Topics Covered
+My goal is to build a strong foundation in Python and gradually progress toward:
 
-* Arithmetic Operators
-* Assignment Operators
-* Comparison Operators
-* Logical Operators
-* Identity Operators
-* Membership Operators
-* Bitwise Operators
-* Operator Precedence
+Python Fundamentals
+        ↓
+Problem Solving
+        ↓
+Object-Oriented Programming
+        ↓
+Data Structures & Algorithms
+        ↓
+NumPy & Pandas
+        ↓
+Data Visualization
+        ↓
+SQL & Data Handling
+        ↓
+Machine Learning
+        ↓
+Deep Learning
+        ↓
+AI / Generative AI
+        ↓
+Real-World Projects
 
-### Key Learning
 
-An important distinction is between `==` and `is`.
+The long-term goal is to become confident enough to use Python for:
 
-```python
-a = [1, 2, 3]
-b = [1, 2, 3]
+Software Development
 
-print(a == b)  # True
-print(a is b)  # False
-```
+Data Science
 
-`==` compares **values**, while `is` checks whether two variables refer to the **same object**.
+Machine Learning
 
----
+Artificial Intelligence
 
-## 🟩 Day 03 — Input & Output
+Automation
 
-### Topics Covered
+Problem Solving
 
-* `print()`
-* `input()`
-* Integer and float input
-* Multiple inputs
-* `split()`
-* `map()`
-* `sep`
-* `end`
-* Escape characters
-* f-strings
-* String formatting
+Real-World Projects
 
-### Key Learning
+📅 Daily Learning System
 
-The `input()` function always returns a **string**.
+I am following a simple rule:
 
-```python
-age = input("Enter your age: ")
+Every day I will:
 
-print(type(age))
-```
+Learn a new Python concept.
 
-For numerical operations, the input needs to be converted:
+Understand how and why it works.
 
-```python
-age = int(input("Enter your age: "))
-```
+Write code related to that concept.
 
----
+Solve some practice problems.
 
-## 🟩 Day 04 — Conditional Statements
+Save my work in this repository.
 
-### Topics Covered
+Commit the changes to GitHub.
 
-* `if`
-* `if-else`
-* `if-elif-else`
-* Nested `if`
-* `and`
-* `or`
-* `not`
-* Conditional expressions / Ternary operator
-* Decision making
+Continue the next day.
 
-### Key Learning
+For example:
 
-Conditional statements allow a program to make decisions based on whether a condition is `True` or `False`.
+Day 01 → Data Types
+Day 02 → Operators
+Day 03 → Input & Output
+Day 04 → Conditional Statements
+Day 05 → Loops
+Day 06 → Strings
+Day 07 → Lists
+Day 08 → Tuples
+Day 09 → Sets
+Day 10 → Dictionaries
+Day 11 → Functions
+Day 12 → Recursion
+Day 13 → Modules & Packages
+Day 14 → Exception Handling
+Day 15 → File Handling
+Day 16 → Regular Expressions
+...
 
-Example:
 
-```python
-age = 20
+This makes the repository a daily timeline of my Python learning journey.
 
-if age >= 18:
-    print("You are an adult.")
-else:
-    print("You are a minor.")
-```
+📂 Repository Structure
 
----
+The repository will gradually grow like this:
 
-## 🟪 Day 05 — Loops
-
-### Planned Topics
-
-* `for` loop
-* `while` loop
-* `range()`
-* Nested loops
-* `break`
-* `continue`
-* `pass`
-* Loop patterns
-* Practical problems
-
-### Goal
-
-Learn how to repeat a block of code efficiently and solve repetitive programming problems.
-
----
-
-## 🟪 Day 06 — Strings
-
-### Planned Topics
-
-* Creating strings
-* String indexing
-* String slicing
-* String methods
-* String concatenation
-* String formatting
-* Escape characters
-* Common string operations
-
----
-
-## 🟪 Day 07 — Lists
-
-### Planned Topics
-
-* Creating lists
-* Indexing
-* Slicing
-* Adding elements
-* Removing elements
-* Updating elements
-* List methods
-* Nested lists
-* List operations
-
----
-
-## 🟪 Day 08 — Tuples
-
-### Planned Topics
-
-* Creating tuples
-* Tuple indexing
-* Tuple slicing
-* Tuple methods
-* Tuple unpacking
-* Immutability
-* Tuple vs List
-
----
-
-## 🟪 Day 09 — Sets
-
-### Planned Topics
-
-* Creating sets
-* Unique elements
-* Adding and removing elements
-* Set operations
-* Union
-* Intersection
-* Difference
-* Symmetric difference
-* Set methods
-
----
-
-## 🟪 Day 10 — Dictionaries
-
-### Planned Topics
-
-* Key-value pairs
-* Creating dictionaries
-* Accessing values
-* Adding and updating values
-* Removing elements
-* Dictionary methods
-* Nested dictionaries
-* Iterating through dictionaries
-
----
-
-## 🟪 Day 11 — Functions
-
-### Planned Topics
-
-* Creating functions
-* Calling functions
-* Parameters
-* Arguments
-* Return values
-* Default arguments
-* Keyword arguments
-* Positional arguments
-* Variable-length arguments
-* `*args`
-* `**kwargs`
-
-### Goal
-
-Learn how to write reusable and organized Python code.
-
----
-
-## 🟪 Day 12 — Recursion
-
-### Planned Topics
-
-* What is recursion?
-* Recursive functions
-* Base case
-* Recursive case
-* Call stack
-* Factorial
-* Fibonacci
-* Recursion vs iteration
-
----
-
-## 🟪 Day 13 — Modules & Packages
-
-### Planned Topics
-
-* What are modules?
-* `import`
-* `from ... import`
-* Built-in modules
-* Creating custom modules
-* Packages
-* `__name__`
-* `__main__`
-* Using Python libraries
-
----
-
-## 🟪 Day 14 — Exception Handling
-
-### Planned Topics
-
-* Errors vs Exceptions
-* `try`
-* `except`
-* `else`
-* `finally`
-* Multiple exceptions
-* `raise`
-* Custom exceptions
-
-### Goal
-
-Learn how to handle errors gracefully instead of allowing programs to crash unexpectedly.
-
----
-
-## 🟪 Day 15 — File Handling
-
-### Planned Topics
-
-* Opening files
-* Reading files
-* Writing files
-* Appending data
-* File modes
-* `with` statement
-* Text files
-* Working with file paths
-
----
-
-## 🟪 Day 16 — Regular Expressions
-
-### Planned Topics
-
-* Introduction to Regular Expressions
-* `re` module
-* `search()`
-* `match()`
-* `findall()`
-* `finditer()`
-* `sub()`
-* Character classes
-* Quantifiers
-* Patterns
-* Practical validation examples
-
----
-
-# 🛠️ Tools & Technologies
-
-Throughout this journey, I will primarily use:
-
-* 🐍 Python
-* 💻 Visual Studio Code
-* 🔧 Git
-* 🐙 GitHub
-
-As the journey progresses, I plan to explore Python libraries and tools related to:
-
-* NumPy
-* Pandas
-* Matplotlib
-* Seaborn
-* Scikit-learn
-* Jupyter Notebook
-
----
-
-# 📂 Repository Structure
-
-The repository is organized according to the learning days:
-
-```text
-My-Python-Journey/
+My_Python_Journey/
 │
 ├── README.md
 │
@@ -409,163 +140,763 @@ My-Python-Journey/
 ├── Day_02_Operators/
 │   └── operators.py
 │
-├── Day_03_Input_Output/
-│   └── input_output.py
-│
-├── Day_04_Conditional_Statements/
+├── Day_03_Conditional_Statements/
 │   └── conditional_statements.py
 │
-├── Day_05_Loops/
+├── Day_04_Loops/
 │   └── loops.py
 │
-├── Day_06_Strings/
+├── Day_05_Strings/
 │   └── strings.py
 │
-├── Day_07_Lists/
+├── Day_06_Lists/
 │   └── lists.py
 │
-├── Day_08_Tuples/
+├── Day_07_Tuples/
 │   └── tuples.py
 │
-├── Day_09_Sets/
+├── Day_08_Sets/
 │   └── sets.py
 │
-├── Day_10_Dictionaries/
+├── Day_09_Dictionaries/
 │   └── dictionaries.py
 │
-├── Day_11_Functions/
+├── Day_10_Functions/
 │   └── functions.py
 │
-├── Day_12_Recursion/
-│   └── recursion.py
+├── ...
 │
-├── Day_13_Modules_Packages/
-│   └── modules_packages.py
+├── Projects/
+│   ├── Project_01/
+│   ├── Project_02/
+│   └── Project_03/
 │
-├── Day_14_Exception_Handling/
-│   └── exception_handling.py
-│
-├── Day_15_File_Handling/
-│   └── file_handling.py
-│
-└── Day_16_Regular_Expressions/
-    └── regular_expressions.py
-```
+└── Notes/
+    ├── Python_Cheatsheet.md
+    └── Important_Concepts.md
 
----
 
-# 📈 Learning Method
+The structure may change as my learning journey progresses.
 
-For each topic, I follow a simple learning cycle:
+🗓️ Learning Progress
 
-```text
-Learn
-  ↓
-Understand
-  ↓
-Code
-  ↓
-Practice
-  ↓
-Solve Problems
-  ↓
-Document
-  ↓
-Repeat
-```
+🟢 Python Fundamentals
 
-Each day's code focuses on understanding the concept through practical examples rather than only learning theory.
+Day
 
----
+Topic
 
-# 📝 What Each Day Contains
+Status
 
-Each learning day may include:
+01
 
-* 📖 Topic explanation
-* 💻 Python examples
-* 🧠 Important concepts
-* 📌 Important notes
-* 🧪 Practical examples
-* 📝 Practice questions
-* 🚀 Small coding challenges
+Data Types
 
----
+✅ Completed
 
-# 🎯 Future Goals
+02
 
-After completing the Python fundamentals, I plan to continue my journey toward:
+Operators
 
-```text
-Python Fundamentals
-        ↓
-Advanced Python
-        ↓
+✅ Completed
+
+03
+
+Input & Output
+
+✅ Completed
+
+04
+
+Conditional Statements
+
+⬜ Pending
+
+05
+
+Loops
+
+⬜ Pending
+
+06
+
+Strings
+
+⬜ Pending
+
+07
+
+Lists
+
+⬜ Pending
+
+08
+
+Tuples
+
+⬜ Pending
+
+09
+
+Sets
+
+⬜ Pending
+
+10
+
+Dictionaries
+
+⬜ Pending
+
+11
+
+Functions
+
+⬜ Pending
+
+12
+
+Recursion
+
+⬜ Pending
+
+13
+
+Modules & Packages
+
+⬜ Pending
+
+14
+
+Exception Handling
+
+⬜ Pending
+
+15
+
+File Handling
+
+⬜ Pending
+
+16
+
+Regular Expressions
+
+⬜ Pending
+
+📊 Current Python Fundamentals Progress
+
+Day
+
+Topic
+
+Status
+
+01
+
+Data Types
+
+✅ Completed
+
+02
+
+Operators
+
+✅ Completed
+
+03
+
+Input & Output
+
+✅ Completed
+
+04
+
+Conditional Statements
+
+⬜ Pending
+
+05
+
+Loops
+
+⬜ Pending
+
+06
+
+Strings
+
+⬜ Pending
+
+07
+
+Lists
+
+⬜ Pending
+
+08
+
+Tuples
+
+⬜ Pending
+
+09
+
+Sets
+
+⬜ Pending
+
+10
+
+Dictionaries
+
+⬜ Pending
+
+11
+
+Functions
+
+⬜ Pending
+
+12
+
+Recursion
+
+⬜ Pending
+
+13
+
+Modules & Packages
+
+⬜ Pending
+
+14
+
+Exception Handling
+
+⬜ Pending
+
+15
+
+File Handling
+
+⬜ Pending
+
+16
+
+Regular Expressions
+
+⬜ Pending
+
+Progress: 3 / 16 completed 🚀
+
+🧱 Object-Oriented Programming
+
+After completing the fundamentals, I will move toward Object-Oriented Programming.
+
+Topics will include:
+
+Classes & Objects
+
+Constructors
+
+Instance Variables
+
+Class Variables
+
+Instance Methods
+
+Class Methods
+
+Static Methods
+
+Encapsulation
+
+Inheritance
+
+Polymorphism
+
+Abstraction
+
+Method Overriding
+
+Special / Magic Methods
+
+🧮 Data Structures & Algorithms
+
+I will also use Python for learning Data Structures and Algorithms.
+
+Planned topics include:
+
+Data Structures
+
+Arrays
+
+Strings
+
+Linked Lists
+
+Stacks
+
+Queues
+
+Hash Tables
+
+Trees
+
+Binary Trees
+
+Binary Search Trees
+
+Heaps
+
+Graphs
+
+Algorithms
+
+Searching
+
+Sorting
+
+Recursion
+
+Divide & Conquer
+
+Greedy Algorithms
+
+Dynamic Programming
+
+Backtracking
+
+Graph Algorithms
+
+Time Complexity
+
+Space Complexity
+
+📊 Python for Data Science
+
+Once my Python fundamentals are strong, I will start using Python for Data Science.
+
+Topics will include:
+
 NumPy
-        ↓
+
+Arrays
+
+Indexing
+
+Slicing
+
+Broadcasting
+
+Vectorization
+
+Mathematical Operations
+
+Linear Algebra
+
 Pandas
-        ↓
-Data Visualization
-        ↓
+
+Series
+
+DataFrames
+
+Data Cleaning
+
+Missing Values
+
+Filtering
+
+GroupBy
+
+Merging
+
+Joining
+
 Data Analysis
+
+Matplotlib
+
+Line Plots
+
+Bar Charts
+
+Scatter Plots
+
+Histograms
+
+Pie Charts
+
+Customization
+
+Data Visualization
+
+🤖 Machine Learning
+
+After developing a strong Python and Data Science foundation, I plan to explore Machine Learning.
+
+Topics may include:
+
+Machine Learning Fundamentals
+
+Data Preprocessing
+
+Exploratory Data Analysis
+
+Feature Engineering
+
+Train/Test Split
+
+Linear Regression
+
+Logistic Regression
+
+K-Nearest Neighbors
+
+Decision Trees
+
+Random Forest
+
+Support Vector Machines
+
+Naive Bayes
+
+Clustering
+
+Principal Component Analysis
+
+Model Evaluation
+
+Cross Validation
+
+Hyperparameter Tuning
+
+🧠 Deep Learning & AI
+
+Later in my journey, I plan to explore:
+
+Neural Networks
+
+Artificial Neural Networks
+
+CNN
+
+RNN
+
+LSTM
+
+Transformers
+
+Natural Language Processing
+
+Computer Vision
+
+Large Language Models
+
+Generative AI
+
+Retrieval-Augmented Generation (RAG)
+
+AI Agents
+
+📁 Daily File Format
+
+Whenever possible, each day's folder will contain:
+
+Day_XX_Topic/
+│
+├── topic.py
+└── README.md
+
+
+The Python file will contain the code I learned and practiced.
+
+The optional README.md inside the folder can contain:
+
+# Topic Name
+
+## What I Learned
+
+Brief explanation of the topic.
+
+## Important Concepts
+
+- Concept 1
+- Concept 2
+- Concept 3
+
+## Code
+
+Examples and exercises related to the topic.
+
+## Key Takeaways
+
+What I understood from today's learning.
+
+## Practice
+
+Problems solved during the day.
+
+
+💻 Coding Philosophy
+
+I am following these principles while learning:
+
+1. Understand Before Memorizing
+
+I will focus on understanding concepts instead of simply memorizing syntax.
+
+2. Code Every Day
+
+Even if I have limited time, I will try to write and run some code every day.
+
+3. Practice What I Learn
+
+Learning a concept is not enough. I will solve problems based on it.
+
+4. Learn From Errors
+
+Errors are part of programming.
+
+Instead of avoiding errors, I will try to understand:
+
+What went wrong?
         ↓
-Statistics & Probability
+Why did it happen?
         ↓
+How can I fix it?
+        ↓
+How can I avoid it next time?
+
+
+5. Keep Improving
+
+Old code may not always be perfect. As my skills improve, I may revisit and improve previous implementations.
+
+📝 Commit Convention
+
+I will try to maintain meaningful Git commits.
+
+Examples:
+
+Day 01: Learn Python Data Types
+Day 02: Learn Python Operators
+Day 03: Learn Python Input & Output
+Day 04: Learn Python Conditional Statements
+Day 05: Learn Python Loops
+Day 06: Learn Python Strings
+
+
+For improvements:
+
+Improve Day 03 conditional statements
+Add practice problems for loops
+Fix string exercises
+Update Python notes
+Add mini project
+
+
+📈 Progress Tracker
+
+My progress will be measured by consistency, not just the number of files.
+
+Days Completed: 3
+
+Topics Learned: 3
+
+Projects Built: 0+
+
+Current Focus: Python Fundamentals
+
+
+This section will be updated as the journey continues.
+
+🚀 Projects
+
+As I become more comfortable with Python, I will build projects to apply what I learn.
+
+Some possible projects include:
+
+Calculator
+
+Number Guessing Game
+
+To-Do List
+
+Quiz Application
+
+Password Generator
+
+Contact Book
+
+Expense Tracker
+
+Student Management System
+
+File Organizer
+
+Web Scraper
+
+Data Analysis Projects
+
+Machine Learning Projects
+
+AI Projects
+
+The projects will become progressively more complex as my skills improve.
+
+🧪 Learning Approach
+
+My learning process follows this cycle:
+
+LEARN
+  ↓
+UNDERSTAND
+  ↓
+CODE
+  ↓
+PRACTICE
+  ↓
+MAKE MISTAKES
+  ↓
+DEBUG
+  ↓
+IMPROVE
+  ↓
+COMMIT
+  ↓
+REPEAT
+
+
+The goal is to build real programming ability, not just complete tutorials.
+
+📚 Resources
+
+I will use different resources throughout this journey, including:
+
+Official Python documentation
+
+Online courses
+
+Documentation
+
+Coding platforms
+
+Practice problems
+
+Books
+
+Tutorials
+
+Real-world projects
+
+Open-source repositories
+
+Resources may be added here as my journey progresses.
+
+🔥 Challenges
+
+Learning programming consistently is challenging.
+
+Some days I may learn quickly.
+
+Some days I may struggle with a concept.
+
+Some days my code may not work.
+
+But the goal is simple:
+
+Don't break the chain. Keep learning. Keep coding.
+
+Even a small improvement every day can create a huge difference over time.
+
+🎯 Long-Term Objective
+
+By the end of this journey, I want this repository to demonstrate:
+
+✓ Strong Python fundamentals
+✓ Problem-solving ability
+✓ Clean coding practices
+✓ Data Structures & Algorithms
+✓ Data Science skills
+✓ Machine Learning knowledge
+✓ Real-world project experience
+✓ Consistent learning
+✓ Git & GitHub experience
+
+
+More importantly, I want this repository to show how I progressed from beginner-level Python to building real-world applications.
+
+📊 Journey Timeline
+
+Day 01
+  ↓
+Python Basics
+  ↓
+Python Intermediate
+  ↓
+OOP
+  ↓
+DSA
+  ↓
+NumPy / Pandas / Matplotlib
+  ↓
+Data Science
+  ↓
 Machine Learning
-        ↓
+  ↓
 Deep Learning
-        ↓
-Artificial Intelligence
-```
+  ↓
+AI / Generative AI
+  ↓
+Real-World Projects
 
-The ultimate goal is to build a strong foundation for **AI, Machine Learning, and Data Science**.
 
----
+⭐ Why I Created This Repository
 
-# 📊 Progress
+I created My_Python_Journey to keep myself accountable.
 
-**Current Progress: 4 / 16 topics completed**
+Instead of learning Python privately and forgetting what I learned, I want to maintain a public record of my progress.
 
-```text
-████████████░░░░ 25%
-```
+Every file represents something I learned.
 
-### Completed
+Every commit represents another day of practice.
 
-* ✅ Day 01 — Data Types
-* ✅ Day 02 — Operators
-* ✅ Day 03 — Input & Output
-* ✅ Day 04 — Conditional Statements
+Every mistake represents something I can learn from.
 
-### Up Next
+And every project represents an improvement in my skills.
 
-* ⏳ Day 05 — Loops
-* ⏳ Day 06 — Strings
-* ⏳ Day 07 — Lists
-* ⏳ Day 08 — Tuples
-* ⏳ Day 09 — Sets
-* ⏳ Day 10 — Dictionaries
-* ⏳ Day 11 — Functions
-* ⏳ Day 12 — Recursion
-* ⏳ Day 13 — Modules & Packages
-* ⏳ Day 14 — Exception Handling
-* ⏳ Day 15 — File Handling
-* ⏳ Day 16 — Regular Expressions
+This repository is not meant to show that I already know everything.
 
----
+It is meant to show that I am continuously learning.
 
-# 🚀 Learning in Public
+🏆 The Rule
 
-I am documenting this journey publicly to stay consistent, track my progress, and share what I learn with others.
+One Day. One Topic. One Commit. One Step Forward.
 
-Every completed day represents one more step toward becoming a better programmer.
+I will keep learning, practicing, building, and improving.
 
-> **Consistency beats perfection. Keep learning. Keep coding. Keep building. 🚀**
+🐍 Learn Python
+💻 Write Code
+🧠 Solve Problems
+🚀 Build Projects
+📈 Improve Every Day
 
----
 
-## ⭐ Follow My Journey
+📌 Repository Status
 
-If you're also learning Python, Data Science, Machine Learning, or AI, feel free to explore this repository and learn along with me.
+Current Level: Beginner → Learning
+Current Focus: Python Fundamentals
+Learning Style: Daily Practice
+Repository Status: 🚧 In Progress
 
-**100 Days of Code. One day at a time. One concept at a time. 🐍💻**
+🌱 Follow My Journey
+
+This repository will continue to evolve as I learn more.
+
+If you are also learning Python, feel free to explore the code, learn from it, and practice along with me.
+
+Thanks for visiting my Python journey! 🐍
+
+"The best way to learn programming is to write programs."
