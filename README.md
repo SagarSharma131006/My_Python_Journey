@@ -171,7 +171,7 @@ My_Python_Journey/
 | 02  | Operators              | ✅ Completed |
 | 03  | Conditional Statements | ✅ Completed |
 | 04  | Loops                  | ✅ Completed |
-| 05  | Strings                | ⬜ Pending   |
+| 05  | Strings                | ✅ Completed |
 | 06  | Lists                  | ⬜ Pending   |
 | 07  | Tuples                 | ⬜ Pending   |
 | 08  | Sets                   | ⬜ Pending   |
