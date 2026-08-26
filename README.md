@@ -173,7 +173,7 @@ My_Python_Journey/
 | 04  | Loops                  | ✅ Completed |
 | 05  | Strings                | ✅ Completed |
 | 06  | Lists                  | ✅ Completed |
-| 07  | Tuples                 | ⬜ Pending   |
+| 07  | Tuples                 | ✅ Completed |
 | 08  | Sets                   | ⬜ Pending   |
 | 09  | Dictionaries           | ⬜ Pending   |
 | 10  | Functions              | ⬜ Pending   |
