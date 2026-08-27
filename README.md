@@ -174,7 +174,7 @@ My_Python_Journey/
 | 05  | Strings                | ✅ Completed |
 | 06  | Lists                  | ✅ Completed |
 | 07  | Tuples                 | ✅ Completed |
-| 08  | Sets                   | ⬜ Pending   |
+| 08  | Sets                   | ✅ Completed |
 | 09  | Dictionaries           | ⬜ Pending   |
 | 10  | Functions              | ⬜ Pending   |
 | 11  | Recursion              | ⬜ Pending   |
