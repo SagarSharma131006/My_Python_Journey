@@ -175,7 +175,7 @@ My_Python_Journey/
 | 06  | Lists                  | ✅ Completed |
 | 07  | Tuples                 | ✅ Completed |
 | 08  | Sets                   | ✅ Completed |
-| 09  | Dictionaries           | ⬜ Pending   |
+| 09  | Dictionaries           | ✅ Completed |
 | 10  | Functions              | ⬜ Pending   |
 | 11  | Recursion              | ⬜ Pending   |
 | 12  | Modules & Packages     | ⬜ Pending   |
