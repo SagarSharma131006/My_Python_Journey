@@ -179,8 +179,8 @@ My_Python_Journey/
 | 10  | Functions              | ✅ Completed |
 | 11  | Recursion              | ✅ Completed |
 | 12  | Modules & Packages     | ✅ Completed |
-| 13  | Exception Handling     | ⬜ Pending   |
-| 14  | File Handling          | ⬜ Pending   |
+| 13  | Exception Handling     | ✅ Completed |
+| 14  | File Handling          | ✅ Completed |
 | 15  | Regular Expressions    | ⬜ Pending   |
 
 ---
