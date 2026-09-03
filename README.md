@@ -181,7 +181,7 @@ My_Python_Journey/
 | 12  | Modules & Packages     | ✅ Completed |
 | 13  | Exception Handling     | ✅ Completed |
 | 14  | File Handling          | ✅ Completed |
-| 15  | Regular Expressions    | ⬜ Pending   |
+| 15  | Regular Expressions    | ✅ Completed |
 
 ---
 
