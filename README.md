@@ -1,646 +1,1026 @@
-# 🐍 My Python Journey
+## 🔢 Phase 2 — NumPy
+### Days 21–30
 
-> A collection of my daily Python learning, practice, experiments, exercises, projects, and notes — documenting my journey from Python fundamentals to advanced concepts.
+Learn NumPy for numerical computing and efficient array operations.
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python\&logoColor=white)
-![Learning](https://img.shields.io/badge/Learning-Daily-success)
+### Topics
+- NumPy arrays
+- 1D, 2D & multidimensional arrays
+- `shape`, `ndim`, `size`, `dtype`
+- Indexing & slicing
+- Reshaping & transpose
+- Mathematical operations
+- Aggregations
+- Broadcasting
+- Vectorization
+- Boolean masking
+- Random numbers
+
+**Goal:** Build a strong NumPy foundation and apply it to real-world data.
+
+Ye na bahut chhota hai, na unnecessarily huge.
+
+Same way Pandas, Visualization, Data Analysis Projects, ML, projects etc. ko describe karenge.
+
+Aur ek important cheez: current README mein Day 51–55 Project 01 aur Day 56–60 Project 02 fixed hai. Main isko thoda flexible rakhunga, because actual project ke according days distribute karna better rahega.
+
+Overall target: around 400–600 lines ka clean README, instead of ~1500 lines, while keeping all important information.
+
+yeah start
+
+Bilkul bhai. Main same information ko clean + medium-detail format mein rewrite kar raha hoon — important cheezein rahengi, but unnecessary repetition nahi hogi.
+
+# 🐍 My Python Journey — 100 Days of Code
+
+> A practical journey from Python fundamentals to Data Analysis and Machine Learning through daily learning, coding, practice, and projects.
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![100 Days of Code](https://img.shields.io/badge/100%20Days%20of%20Code-Day%2020%2F100-orange)
 ![GitHub](https://img.shields.io/badge/GitHub-My%20Python%20Journey-black?logo=github)
-![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
+![Status](https://img.shields.io/badge/Status-In%20Progress-success)
 
 ---
 
 ## 📌 About This Repository
 
-Welcome to **My_Python_Journey**!
+This repository documents my **100 Days of Code in Python** journey.
 
-This repository is my personal record of learning Python. I will update this repository **every day** with whatever I learn, practice, or build.
+The goal is to build a strong Python foundation and gradually move toward:
 
-The main purpose of this repository is not just to collect Python files, but to **document my complete learning journey** — including:
+- NumPy
+- Pandas
+- Data Visualization
+- Data Analysis
+- Machine Learning
+- Real-world Projects
 
-* 📚 Concepts I learn
-* 💻 Programs and coding exercises
-* 🧠 Problem-solving practice
-* 📝 Notes and explanations
-* 🧪 Experiments
-* 🔍 Practice questions
-* 🚀 Mini projects
-* 📊 Data analysis experiments
-* 🤖 Machine Learning implementations
-* 🔧 Useful Python techniques
-* 📈 My progress over time
+Each day includes learning, coding, practice, and documentation.
 
-Every day, I will try to add something new.
-
-> **One Day → One Topic → One File → One Step Forward.**
+> **Learn → Understand → Code → Practice → Build → Improve**
 
 ---
 
-# 🎯 My Goal
+# 🎯 Learning Roadmap
 
-My goal is to build a strong foundation in Python and gradually progress toward:
+The complete 100-day journey is divided into 7 phases:
 
 ```text
-Python Fundamentals
-        ↓
-Problem Solving
-        ↓
-Object-Oriented Programming
-        ↓
-Data Structures & Algorithms
-        ↓
-NumPy & Pandas
-        ↓
+Day 01–20   → 🐍 Python Fundamentals
+Day 21–30   → 🔢 NumPy
+Day 31–40   → 🐼 Pandas
+Day 41–50   → 📊 Matplotlib + Seaborn
+Day 51–60   → 📈 2 Data Analysis Projects
+Day 61–90   → 🤖 Machine Learning
+Day 91–100  → 🚀 2 Machine Learning Projects
+```
+Complete Flow
+Python
+   ↓
+NumPy
+   ↓
+Pandas
+   ↓
 Data Visualization
-        ↓
-SQL & Data Handling
-        ↓
+   ↓
+Data Analysis
+   ↓
 Machine Learning
-        ↓
-Deep Learning
-        ↓
-AI / Generative AI
-        ↓
-Real-World Projects
-```
+   ↓
+ML Projects
+🗓️ 100-Day Roadmap
+Phase	Days	Focus
+Phase 1	01–20	Python Fundamentals
+Phase 2	21–30	NumPy
+Phase 3	31–40	Pandas
+Phase 4	41–50	Matplotlib + Seaborn
+Phase 5	51–60	2 Data Analysis Projects
+Phase 6	61–90	Machine Learning + Scikit-learn
+Phase 7	91–100	2 Machine Learning Projects
+🐍 Phase 1 — Python Fundamentals
+Days 01–20
 
-The long-term goal is to become confident enough to use Python for:
+The first phase focuses on building a strong foundation in Python.
 
-* Software Development
-* Data Science
-* Machine Learning
-* Artificial Intelligence
-* Automation
-* Problem Solving
-* Real-World Projects
+Topics Covered
+Data Types
+Variables
+Operators
+Input & Output
+Conditional Statements
+Loops
+Strings
+Lists
+Tuples
+Sets
+Dictionaries
+Functions
+*args and **kwargs
+Recursion
+Modules & Packages
+Exception Handling
+File Handling
+Regular Expressions
+List Comprehensions
+Object-Oriented Programming
+Iterators & Generators
+Progress
+Day	Topic	Status
+01	Data Types	✅
+02	Operators	✅
+03	Input & Output	✅
+04	Conditional Statements	✅
+05	Loops	✅
+06	Strings	✅
+07	Lists	✅
+08	Tuples	✅
+09	Sets	✅
+10	Dictionaries	✅
+11	Functions	✅
+12	Recursion	✅
+13	Modules & Packages	✅
+14	Exception Handling	✅
+15	File Handling	✅
+16	Regular Expressions	✅
+17	List Comprehensions	✅
+18	OOP	✅
+19	Iterators & Generators	✅
+20	Python Mini Project	✅
+🚀 Day 20 — Python Mini Project
+🎓 Student Management System
 
----
+To complete the Python fundamentals phase, I built a CLI-based Student Management System.
 
-# 📅 Daily Learning System
+Features
+➕ Add Student
+👀 View Students
+🔍 Search Student
+✏️ Update Student
+🗑️ Delete Student
+📊 Student Statistics
+🔃 Sort Students
+💾 Save & Load Data
+🗃️ JSON Storage
+⚠️ Input Validation
+🛡️ Exception Handling
+Concepts Applied
 
-I am following a simple rule:
+Python fundamentals, functions, modules, file handling, JSON, exception handling, and OOP.
 
-### Every day I will:
+🔢 Phase 2 — NumPy
+Days 21–30
 
-1. Learn a new Python concept.
-2. Understand how and why it works.
-3. Write code related to that concept.
-4. Solve some practice problems.
-5. Save my work in this repository.
-6. Commit the changes to GitHub.
-7. Continue the next day.
+Starting from Day 21, the journey moves toward Data Analysis.
 
-For example:
+NumPy will be used to understand numerical computing and efficient array operations.
 
-```text
-Day 01 → Data Types
-Day 02 → Operators
-Day 03 → Conditional Statements
-Day 04 → Loops
-Day 05 → Strings
-Day 06 → Lists
-Day 07 → Tuples
-...
-```
+Topics
+NumPy basics
+Creating arrays
+1D, 2D & multidimensional arrays
+shape, ndim, size, dtype
+Indexing & slicing
+Reshaping
+Transpose
+Concatenation & splitting
+Mathematical operations
+Aggregation functions
+Broadcasting
+Vectorization
+Boolean masking
+Filtering & sorting
+axis
+Random number generation
+Goal
 
-This makes the repository a **daily timeline of my Python learning journey**.
+Build a practical understanding of NumPy and learn how arrays are used in Data Analysis and Machine Learning.
 
----
+Status: ⏳ Upcoming
 
-# 📂 Repository Structure
+🐼 Phase 3 — Pandas
+Days 31–40
 
-The repository will gradually grow like this:
+Pandas will be used for working with structured and tabular data.
 
-```text
+Topics
+Series
+DataFrames
+Creating DataFrames
+Reading CSV & Excel files
+Dataset inspection
+head(), tail(), info(), describe()
+Selecting rows and columns
+loc and iloc
+Boolean filtering
+Missing values
+Duplicate handling
+Data type conversion
+Renaming columns
+Sorting
+GroupBy & aggregation
+apply() and map()
+Creating and removing columns
+Merging, joining & concatenation
+Date & time handling
+Goal
+
+Learn how to load, clean, transform, and analyze real-world datasets.
+
+Status: ⏳ Upcoming
+
+📊 Phase 4 — Matplotlib + Seaborn
+Days 41–50
+
+This phase focuses on understanding data visually using:
+
+Matplotlib
+Seaborn
+Matplotlib
+Line plots
+Bar charts
+Scatter plots
+Histograms
+Pie charts
+Figure & Axes
+Labels & titles
+Legends
+Grid
+Subplots
+Plot customization
+Seaborn
+Count plots
+Bar plots
+Histograms
+KDE plots
+Box plots
+Violin plots
+Scatter plots
+Heatmaps
+Pair plots
+Categorical plots
+Main Goal
+
+Use visualizations to:
+
+Understand distributions
+Compare categories
+Find relationships
+Detect outliers
+Identify correlations
+Discover patterns
+Communicate insights
+
+Don't just create a graph. Understand what the graph tells you.
+
+Status: ⏳ Upcoming
+
+📈 Phase 5 — Data Analysis Projects
+Days 51–60
+
+After learning NumPy, Pandas, Matplotlib, and Seaborn, I will apply them together in 2 real-world Data Analysis projects.
+
+The datasets will be selected from Kaggle.
+
+Project Workflow
+Raw Dataset
+     ↓
+Understand Data
+     ↓
+Inspect Data
+     ↓
+Clean Data
+     ↓
+Handle Missing Values
+     ↓
+Handle Duplicates
+     ↓
+Analyze Outliers
+     ↓
+Feature Engineering
+     ↓
+NumPy + Pandas
+     ↓
+Matplotlib + Seaborn
+     ↓
+Find Insights
+     ↓
+Final Clean Dataset
+📊 Data Analysis Project 01
+
+A complete Data Analysis project using the first Kaggle dataset.
+
+📊 Data Analysis Project 02
+
+A second Data Analysis project using another Kaggle dataset.
+
+Both projects will follow an end-to-end analysis workflow rather than being limited to individual library exercises.
+
+Status: ⏳ Upcoming
+
+🗂️ Dataset Strategy
+
+The two datasets selected for Data Analysis will also be used later for Machine Learning.
+
+Kaggle Dataset
+      ↓
+Data Cleaning
+      ↓
+EDA
+      ↓
+Feature Engineering
+      ↓
+Visualization
+      ↓
+Clean / Prepared Dataset
+      ↓
+Machine Learning
+      ↓
+Model Training
+      ↓
+Model Evaluation
+      ↓
+ML Project
+
+This will help me understand how the same real-world data moves from analysis to machine learning.
+
+🤖 Phase 6 — Machine Learning
+Days 61–90
+
+After completing the Data Analysis phase, I will move into Machine Learning using Scikit-learn.
+
+🧠 ML Fundamentals — Days 61–68
+
+Topics include:
+
+What is Machine Learning?
+AI vs Machine Learning
+Supervised Learning
+Unsupervised Learning
+Features & Target
+Training & Testing Data
+Train/Test Split
+Validation
+Data Preprocessing
+Encoding
+Feature Scaling
+Model Training
+Predictions
+Model Evaluation
+Scikit-learn workflow
+📈 Regression — Days 69–76
+
+Topics include:
+
+Regression fundamentals
+Linear Regression
+Multiple Linear Regression
+Polynomial Regression
+Predictions
+Model training
+Model comparison
+Evaluation Metrics
+MAE
+MSE
+RMSE
+R² Score
+🎯 Classification — Days 77–86
+
+Topics include:
+
+Classification fundamentals
+Logistic Regression
+K-Nearest Neighbors
+Decision Trees
+Random Forest
+Naive Bayes
+Support Vector Machines
+Evaluation
+Accuracy
+Precision
+Recall
+F1 Score
+Confusion Matrix
+ROC-AUC
+🔵 Unsupervised Learning — Days 87–90
+
+Topics include:
+
+Clustering
+K-Means
+Choosing number of clusters
+Cluster visualization
+DBSCAN
+PCA basics
+Cluster evaluation
+⚙️ Machine Learning Workflow
+
+The general ML workflow will be:
+
+Dataset
+   ↓
+Understand Data
+   ↓
+Clean Data
+   ↓
+Feature Engineering
+   ↓
+Preprocessing
+   ↓
+Train/Test Split
+   ↓
+Model Selection
+   ↓
+Training
+   ↓
+Prediction
+   ↓
+Evaluation
+   ↓
+Model Comparison
+   ↓
+Best Model
+
+Status: ⏳ Upcoming
+
+🚀 Phase 7 — Machine Learning Projects
+Days 91–100
+
+The final phase will focus on building 2 Machine Learning projects using the same datasets prepared during the Data Analysis phase.
+
+🤖 ML Project 01
+
+Uses the dataset from Data Analysis Project 01.
+
+Clean Dataset
+     ↓
+Feature Engineering
+     ↓
+ML Preprocessing
+     ↓
+Train/Test Split
+     ↓
+Train Multiple Models
+     ↓
+Evaluate
+     ↓
+Compare Models
+     ↓
+Select Best Model
+     ↓
+Final ML Project
+🤖 ML Project 02
+
+Uses the dataset from Data Analysis Project 02.
+
+The same ML workflow will be followed with appropriate preprocessing, model selection, evaluation, and comparison.
+
+📂 Repository Structure
+
+The repository will gradually grow throughout the challenge.
+
 My_Python_Journey/
 │
 ├── README.md
 │
 ├── Day_01_Data_Types/
-│   └── data_types.py
-│
 ├── Day_02_Operators/
-│   └── operators.py
-│
-├── Day_03_Conditional_Statements/
-│   └── conditional_statements.py
-│
-├── Day_04_Loops/
-│   └── loops.py
-│
-├── Day_05_Strings/
-│   └── strings.py
-│
-├── Day_06_Lists/
-│   └── lists.py
-│
-├── Day_07_Tuples/
-│   └── tuples.py
-│
-├── Day_08_Sets/
-│   └── sets.py
-│
-├── Day_09_Dictionaries/
-│   └── dictionaries.py
-│
-├── Day_10_Functions/
-│   └── functions.py
-│
+├── Day_03_Input_and_Output/
 ├── ...
+├── Day_19_Iterators_and_Generators/
 │
-├── Projects/
-│   ├── Project_01/
-│   ├── Project_02/
-│   └── Project_03/
+├── Day_20_Python_Mini_Project/
+│   ├── main.py
+│   ├── student.py
+│   ├── student_manager.py
+│   ├── file_handler.py
+│   ├── utils.py
+│   ├── students.json
+│   └── README.md
 │
-└── Notes/
-    ├── Python_Cheatsheet.md
-    └── Important_Concepts.md
-```
+├── Day_21_NumPy/
+├── ...
+├── Day_30_NumPy/
+│
+├── Day_31_Pandas/
+├── ...
+├── Day_40_Pandas/
+│
+├── Day_41_Matplotlib_Seaborn/
+├── ...
+├── Day_50_Matplotlib_Seaborn/
+│
+├── Day_51_Data_Analysis_Project_01/
+├── ...
+├── Day_60_Data_Analysis_Project_02/
+│
+├── Day_61_ML_Fundamentals/
+├── ...
+├── Day_90_Unsupervised_Learning/
+│
+├── Day_91_ML_Project_01/
+├── ...
+├── Day_100_ML_Project_02/
+│
+└── Projects/
+    ├── Python_Mini_Project/
+    ├── Data_Analysis_Project_01/
+    ├── Data_Analysis_Project_02/
+    ├── ML_Project_01/
+    └── ML_Project_02/
 
-> The structure may change as my learning journey progresses.
+The exact structure may evolve as the projects become more complex.
 
----
+📁 Daily Work Format
 
-# 🗓️ Learning Progress
+For regular learning days, the structure may look like:
 
-## 🟢 Python Fundamentals
-
-| Day | Topic                  | Status      |
-| --- | ---------------------- | ----------- |
-| 01  | Data Types             | ✅ Completed |
-| 02  | Operators              | ✅ Completed |
-| 03  | Conditional Statements | ✅ Completed |
-| 04  | Loops                  | ✅ Completed |
-| 05  | Strings                | ✅ Completed |
-| 06  | Lists                  | ✅ Completed |
-| 07  | Tuples                 | ✅ Completed |
-| 08  | Sets                   | ✅ Completed |
-| 09  | Dictionaries           | ✅ Completed |
-| 10  | Functions              | ✅ Completed |
-| 11  | Recursion              | ✅ Completed |
-| 12  | Modules & Packages     | ✅ Completed |
-| 13  | Exception Handling     | ✅ Completed |
-| 14  | File Handling          | ✅ Completed |
-| 15  | Regular Expressions    | ✅ Completed |
-
----
-
-# 🧱 Object-Oriented Programming
-
-After completing the fundamentals, I will move toward Object-Oriented Programming.
-
-Topics will include:
-
-* Classes & Objects
-* Constructors
-* Instance Variables
-* Class Variables
-* Instance Methods
-* Class Methods
-* Static Methods
-* Encapsulation
-* Inheritance
-* Polymorphism
-* Abstraction
-* Method Overriding
-* Special / Magic Methods
-
----
-
-# 🧮 Data Structures & Algorithms
-
-I will also use Python for learning Data Structures and Algorithms.
-
-Planned topics include:
-
-### Data Structures
-
-* Arrays
-* Strings
-* Linked Lists
-* Stacks
-* Queues
-* Hash Tables
-* Trees
-* Binary Trees
-* Binary Search Trees
-* Heaps
-* Graphs
-
-### Algorithms
-
-* Searching
-* Sorting
-* Recursion
-* Divide & Conquer
-* Greedy Algorithms
-* Dynamic Programming
-* Backtracking
-* Graph Algorithms
-* Time Complexity
-* Space Complexity
-
----
-
-# 📊 Python for Data Science
-
-Once my Python fundamentals are strong, I will start using Python for Data Science.
-
-Topics will include:
-
-### NumPy
-
-* Arrays
-* Indexing
-* Slicing
-* Broadcasting
-* Vectorization
-* Mathematical Operations
-* Linear Algebra
-
-### Pandas
-
-* Series
-* DataFrames
-* Data Cleaning
-* Missing Values
-* Filtering
-* GroupBy
-* Merging
-* Joining
-* Data Analysis
-
-### Matplotlib
-
-* Line Plots
-* Bar Charts
-* Scatter Plots
-* Histograms
-* Pie Charts
-* Customization
-* Data Visualization
-
----
-
-# 🤖 Machine Learning
-
-After developing a strong Python and Data Science foundation, I plan to explore Machine Learning.
-
-Topics may include:
-
-* Machine Learning Fundamentals
-* Data Preprocessing
-* Exploratory Data Analysis
-* Feature Engineering
-* Train/Test Split
-* Linear Regression
-* Logistic Regression
-* K-Nearest Neighbors
-* Decision Trees
-* Random Forest
-* Support Vector Machines
-* Naive Bayes
-* Clustering
-* Principal Component Analysis
-* Model Evaluation
-* Cross Validation
-* Hyperparameter Tuning
-
----
-
-# 🧠 Deep Learning & AI
-
-Later in my journey, I plan to explore:
-
-* Neural Networks
-* Artificial Neural Networks
-* CNN
-* RNN
-* LSTM
-* Transformers
-* Natural Language Processing
-* Computer Vision
-* Large Language Models
-* Generative AI
-* Retrieval-Augmented Generation (RAG)
-* AI Agents
-
----
-
-# 📁 Daily File Format
-
-Whenever possible, each day's folder will contain:
-
-```text
 Day_XX_Topic/
 │
 ├── topic.py
 └── README.md
-```
 
-The Python file will contain the code I learned and practiced.
+For Data Analysis and Machine Learning:
 
-The optional `README.md` inside the folder can contain:
+Day_XX_Topic/
+│
+├── notebook.ipynb
+└── README.md
 
-```text
-# Topic Name
+Daily work may include:
 
-## What I Learned
+Concepts
+Code examples
+Practice questions
+Exercises
+Experiments
+Notes
+Results
+Key takeaways
+📊 Data Analysis Project Structure
 
-Brief explanation of the topic.
+A typical project may follow:
 
-## Important Concepts
+Data_Analysis_Project/
+│
+├── dataset/
+│   └── raw_dataset.csv
+│
+├── notebook/
+│   └── data_analysis.ipynb
+│
+├── output/
+│   └── cleaned_dataset.csv
+│
+├── visualizations/
+│
+└── README.md
+🤖 Machine Learning Project Structure
 
-- Concept 1
-- Concept 2
-- Concept 3
+A typical ML project may contain:
 
-## Code
+ML_Project/
+│
+├── dataset/
+│   └── cleaned_dataset.csv
+│
+├── notebook/
+│   └── machine_learning.ipynb
+│
+├── models/
+├── results/
+├── visualizations/
+└── README.md
+🧠 Learning Approach
 
-Examples and exercises related to the topic.
+My learning cycle is:
 
-## Key Takeaways
+Learn
+  ↓
+Understand
+  ↓
+Code
+  ↓
+Practice
+  ↓
+Work With Real Data
+  ↓
+Build
+  ↓
+Debug
+  ↓
+Improve
+  ↓
+Document
+  ↓
+Commit
 
-What I understood from today's learning.
+The goal is to build actual programming ability instead of simply completing tutorials.
 
-## Practice
+💻 Coding Philosophy
+1. Understand Before Memorizing
 
-Problems solved during the day.
-```
+Focus on logic and concepts rather than memorizing syntax.
 
----
+2. Code Every Day
 
-# 💻 Coding Philosophy
+Consistency matters more than speed.
 
-I am following these principles while learning:
+3. Practice What I Learn
 
-### 1. Understand Before Memorizing
+Every new concept should be followed by coding and practice.
 
-I will focus on understanding concepts instead of simply memorizing syntax.
+4. Work With Real Data
 
-### 2. Code Every Day
+During Data Analysis and ML phases, I will work with real-world datasets.
 
-Even if I have limited time, I will try to write and run some code every day.
+5. Learn From Errors
 
-### 3. Practice What I Learn
+Understand what went wrong, why it happened, and how to fix it.
 
-Learning a concept is not enough. I will solve problems based on it.
+6. Build Projects
 
-### 4. Learn From Errors
+Projects will connect multiple concepts into practical applications.
 
-Errors are part of programming.
+7. Improve Previous Work
 
-Instead of avoiding errors, I will try to understand:
+Older code may be revisited to improve readability, structure, performance, or documentation.
 
-```text
-What went wrong?
-        ↓
-Why did it happen?
-        ↓
-How can I fix it?
-        ↓
-How can I avoid it next time?
-```
+📝 Commit Convention
 
-### 5. Keep Improving
-
-Old code may not always be perfect. As my skills improve, I may revisit and improve previous implementations.
-
----
-
-# 📝 Commit Convention
-
-I will try to maintain meaningful Git commits.
+I will maintain meaningful Git commits throughout the journey.
 
 Examples:
 
-```text
 Day 01: Learn Python Data Types
-Day 02: Learn Python Operators
-Day 03: Learn Conditional Statements
-Day 04: Practice Python Loops
-Day 05: Learn Python Strings
-```
+Day 05: Practice Python Loops
+Day 11: Learn Functions
+Day 18: Learn OOP
+Day 20: Complete Student Management System
+Day 21: Start NumPy
+Day 31: Start Pandas
+Day 41: Start Matplotlib and Seaborn
+Day 51: Start Data Analysis Project
+Day 61: Start Machine Learning
+Day 69: Start Regression
+Day 77: Start Classification
+Day 87: Start Unsupervised Learning
+Day 91: Start ML Project 01
+📈 Progress Tracker
+Area	Progress
+Python Fundamentals	20 / 20 ✅
+Python Mini Project	1 / 1 ✅
+NumPy	0 / 10
+Pandas	0 / 10
+Matplotlib + Seaborn	0 / 10
+Data Analysis Projects	0 / 2
+ML Core	0 / 30
+ML Projects	0 / 2
+Current Progress
+Days Completed: 20 / 100
 
-For improvements:
+Current Phase:
+Python Fundamentals ✅
 
-```text
-Improve Day 03 conditional statements
-Add practice problems for loops
-Fix string exercises
-Update Python notes
-Add mini project
-```
+Completed Project:
+Student Management System ✅
 
----
+Next Phase:
+NumPy 🔢
 
-# 📈 Progress Tracker
+Next Day:
+Day 21
+🚀 Projects
 
-My progress will be measured by **consistency**, not just the number of files.
+By the end of this journey, I aim to complete:
 
-```text
-Days Completed: 2+
+🐍 Project 01 — Python Mini Project
 
-Topics Learned: 2+
+Student Management System
 
-Projects Built: 0+
+A CLI application built using Python fundamentals.
 
-Current Focus: Python Fundamentals
-```
+📊 Project 02 — Data Analysis Project 01
 
-This section will be updated as the journey continues.
+Real-world Kaggle dataset analyzed using:
 
----
+NumPy
+Pandas
+Matplotlib
+Seaborn
+📊 Project 03 — Data Analysis Project 02
 
-# 🚀 Projects
+A second real-world dataset analyzed using the same Data Analysis workflow.
 
-As I become more comfortable with Python, I will build projects to apply what I learn.
+🤖 Project 04 — Machine Learning Project 01
 
-Some possible projects include:
+ML project based on Data Analysis Project 01 using Scikit-learn.
 
-* Calculator
-* Number Guessing Game
-* To-Do List
-* Quiz Application
-* Password Generator
-* Contact Book
-* Expense Tracker
-* Student Management System
-* File Organizer
-* Web Scraper
-* Data Analysis Projects
-* Machine Learning Projects
-* AI Projects
+🤖 Project 05 — Machine Learning Project 02
 
-The projects will become progressively more complex as my skills improve.
+ML project based on Data Analysis Project 02 using Scikit-learn.
 
----
-
-# 🧪 Learning Approach
-
-My learning process follows this cycle:
-
-```text
-LEARN
+📊 Technology Stack
+Python
   ↓
-UNDERSTAND
+NumPy
   ↓
-CODE
+Pandas
   ↓
-PRACTICE
+Matplotlib
   ↓
-MAKE MISTAKES
+Seaborn
   ↓
-DEBUG
+Scikit-learn
   ↓
-IMPROVE
+Jupyter Notebook
   ↓
-COMMIT
-  ↓
-REPEAT
-```
+Git & GitHub
 
-The goal is to build **real programming ability**, not just complete tutorials.
+Real-world datasets will primarily be sourced from Kaggle.
 
----
+🧩 Separate DSA Track
 
-# 📚 Resources
+Data Structures and Algorithms is being learned separately in C++.
 
-I will use different resources throughout this journey, including:
+It is maintained in a separate repository and is not part of this Python 100 Days of Code repository.
 
-* Official Python documentation
-* Online courses
-* Documentation
-* Coding platforms
-* Practice problems
-* Books
-* Tutorials
-* Real-world projects
-* Open-source repositories
+This repository focuses on:
 
-Resources may be added here as my journey progresses.
-
----
-
-# 🔥 Challenges
-
-Learning programming consistently is challenging.
-
-Some days I may learn quickly.
-
-Some days I may struggle with a concept.
-
-Some days my code may not work.
-
-But the goal is simple:
-
-> **Don't break the chain. Keep learning. Keep coding.**
-
-Even a small improvement every day can create a huge difference over time.
-
----
-
-# 🎯 Long-Term Objective
-
-By the end of this journey, I want this repository to demonstrate:
-
-```text
-✓ Strong Python fundamentals
-✓ Problem-solving ability
-✓ Clean coding practices
-✓ Data Structures & Algorithms
-✓ Data Science skills
-✓ Machine Learning knowledge
-✓ Real-world project experience
-✓ Consistent learning
-✓ Git & GitHub experience
-```
-
-More importantly, I want this repository to show **how I progressed from beginner-level Python to building real-world applications.**
-
----
-
-# 📊 Journey Timeline
-
-```text
-Day 01
-  ↓
-Python Basics
-  ↓
-Python Intermediate
-  ↓
-OOP
-  ↓
-DSA
-  ↓
-NumPy / Pandas / Matplotlib
-  ↓
-Data Science
-  ↓
+Python
+   ↓
+NumPy
+   ↓
+Pandas
+   ↓
+Data Visualization
+   ↓
+Data Analysis
+   ↓
 Machine Learning
-  ↓
+🔥 100-Day Timeline
+DAY 01 ───────── DAY 20
+🐍 Python Fundamentals
+        +
+🎓 Python Mini Project
+          ↓
+DAY 21 ───────── DAY 30
+🔢 NumPy
+          ↓
+DAY 31 ───────── DAY 40
+🐼 Pandas
+          ↓
+DAY 41 ───────── DAY 50
+📊 Matplotlib + Seaborn
+          ↓
+DAY 51 ───────── DAY 60
+📈 2 Data Analysis Projects
+          ↓
+DAY 61 ───────── DAY 68
+🧠 ML Fundamentals
+          ↓
+DAY 69 ───────── DAY 76
+📈 Regression
+          ↓
+DAY 77 ───────── DAY 86
+🎯 Classification
+          ↓
+DAY 87 ───────── DAY 90
+🔵 Unsupervised Learning
+          ↓
+DAY 91 ───────── DAY 100
+🤖 2 ML Projects
+🎯 What I Want to Achieve by Day 100
+
+By the end of this challenge, I aim to have:
+
+✅ Strong Python fundamentals
+✅ Practical NumPy knowledge
+✅ Practical Pandas knowledge
+✅ Data cleaning experience
+✅ EDA experience
+✅ Data visualization skills
+✅ Matplotlib & Seaborn experience
+✅ Real-world dataset experience
+✅ Scikit-learn experience
+✅ Regression knowledge
+✅ Classification knowledge
+✅ Unsupervised Learning basics
+✅ Model evaluation knowledge
+✅ Feature engineering experience
+✅ 1 Python project
+✅ 2 Data Analysis projects
+✅ 2 Machine Learning projects
+✅ Daily GitHub contributions
+✅ 100 days of consistent learning
+🌱 What Comes After Day 100?
+
+The current challenge focuses on:
+
+Python
+   ↓
+Data Analysis
+   ↓
+Machine Learning
+
+After completing the 100 days, I plan to explore advanced areas such as:
+
+Machine Learning
+      ↓
 Deep Learning
-  ↓
-AI / Generative AI
-  ↓
-Real-World Projects
-```
+      ↓
+Neural Networks
+      ↓
+CNN
+      ↓
+NLP
+      ↓
+Transformers
+      ↓
+Generative AI
+      ↓
+LLMs
+      ↓
+RAG
+      ↓
+AI Agents
 
----
+These topics are outside the current 100-day challenge.
 
-# ⭐ Why I Created This Repository
+📚 Resources
 
-I created **My_Python_Journey** to keep myself accountable.
+Resources throughout the journey may include:
 
-Instead of learning Python privately and forgetting what I learned, I want to maintain a public record of my progress.
+Official Python Documentation
+NumPy Documentation
+Pandas Documentation
+Matplotlib Documentation
+Seaborn Documentation
+Scikit-learn Documentation
+Kaggle
+Online Courses
+Coding Platforms
+Practice Problems
+Books
+Tutorials
+Open-source Projects
+🧪 Practice Strategy
+
+Every phase will follow a practical approach:
+
+Learn Concept
+     ↓
+Understand
+     ↓
+Write Examples
+     ↓
+Solve Practice Questions
+     ↓
+Apply on Real Data
+     ↓
+Build Project
+
+For example:
+
+NumPy
+
+Learn Arrays
+    ↓
+Practice Indexing
+    ↓
+Practice Operations
+    ↓
+Apply on Dataset
+
+Pandas
+
+Learn DataFrames
+    ↓
+Load Dataset
+    ↓
+Clean Data
+    ↓
+Analyze Data
+
+Machine Learning
+
+Learn Algorithm
+    ↓
+Train Model
+    ↓
+Make Predictions
+    ↓
+Evaluate
+    ↓
+Compare Models
+    ↓
+Build Project
+🔥 Challenges
+
+Not every day will be equally productive.
+
+Some concepts may take longer, code may fail, and some datasets or models may create unexpected problems.
+
+The goal is simple:
+
+Don't break the chain. Keep learning. Keep coding. Keep building.
+
+Even a small improvement every day matters.
+
+📌 Consistency Rule
+
+The goal is not to be perfect every day.
+
+The goal is to keep moving.
+
+Bad Day
+   ↓
+Learn Something Small
+   ↓
+Write Some Code
+   ↓
+Commit
+   ↓
+Continue Tomorrow
+
+A small step is still a step forward.
+
+⭐ Why I Created This Repository
+
+I created My Python Journey to document my progress and keep myself accountable.
+
+This repository represents:
+
+What I learned
+What I practiced
+What I struggled with
+What I built
+What datasets I worked with
+What models I trained
+How my skills improved
 
 Every file represents something I learned.
 
-Every commit represents another day of practice.
+Every commit represents another step.
 
-Every mistake represents something I can learn from.
+Every project represents an opportunity to apply that knowledge.
 
-And every project represents an improvement in my skills.
+This repository is not about showing that I already know everything.
+It is about showing that I am continuously learning, practicing, building, and improving.
 
-> **This repository is not meant to show that I already know everything.**
->
-> **It is meant to show that I am continuously learning.**
+🏆 The Rule
 
----
+One Day. One Step. One Commit. One Improvement.
 
-# 🏆 The Rule
+🐍 Learn
+   ↓
+💻 Code
+   ↓
+🧠 Practice
+   ↓
+📊 Analyze
+   ↓
+🤖 Build
+   ↓
+🐛 Debug
+   ↓
+📈 Improve
+   ↓
+📁 Document
+   ↓
+🚀 Commit
+   ↓
+🔁 Repeat
+📌 Repository Status
+Challenge      : 100 Days of Code in Python
+Current Day    : 20 / 100
+Current Phase  : Python Fundamentals Completed
+Projects Done  : 1
+Next Phase     : NumPy
+Next Day       : Day 21
+Status         : 🚧 In Progress
+🌟 Final Objective
 
-## One Day. One Topic. One Commit. One Step Forward.
+The main objective of this journey is to transform Python knowledge into practical skills.
 
-I will keep learning, practicing, building, and improving.
+Starting with:
 
-```text
-🐍 Learn Python
-💻 Write Code
-🧠 Solve Problems
-🚀 Build Projects
-📈 Improve Every Day
-```
+Python Fundamentals
 
----
+and gradually reaching:
 
-## 📌 Repository Status
+Data Analysis
+      ↓
+Machine Learning
+      ↓
+Real-World Projects
 
-**Current Level:** Beginner → Learning
-**Current Focus:** Python Fundamentals
-**Learning Style:** Daily Practice
-**Repository Status:** 🚧 In Progress
+By the end, I want to have not only theoretical knowledge, but also code, projects, datasets, experiments, and practical experience that demonstrate my progress.
 
----
+🌱 Follow My Journey
 
-# 🌱 Follow My Journey
+This repository will continue to evolve throughout the 100 days.
 
-This repository will continue to evolve as I learn more.
+If you are also learning Python, Data Analysis, or Machine Learning, feel free to explore the code and learn along with me.
 
-If you are also learning Python, feel free to explore the code, learn from it, and practice along with me.
+Thanks for visiting my Python journey! 🐍
 
-**Thanks for visiting my Python journey! 🐍**
-
----
-
-> **"The best way to learn programming is to write programs."**
+"The best way to learn programming is to write programs."
