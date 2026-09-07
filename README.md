@@ -1,35 +1,3 @@
-## 🔢 Phase 2 — NumPy
-### Days 21–30
-
-Learn NumPy for numerical computing and efficient array operations.
-
-### Topics
-- NumPy arrays
-- 1D, 2D & multidimensional arrays
-- `shape`, `ndim`, `size`, `dtype`
-- Indexing & slicing
-- Reshaping & transpose
-- Mathematical operations
-- Aggregations
-- Broadcasting
-- Vectorization
-- Boolean masking
-- Random numbers
-
-**Goal:** Build a strong NumPy foundation and apply it to real-world data.
-
-Ye na bahut chhota hai, na unnecessarily huge.
-
-Same way Pandas, Visualization, Data Analysis Projects, ML, projects etc. ko describe karenge.
-
-Aur ek important cheez: current README mein Day 51–55 Project 01 aur Day 56–60 Project 02 fixed hai. Main isko thoda flexible rakhunga, because actual project ke according days distribute karna better rahega.
-
-Overall target: around 400–600 lines ka clean README, instead of ~1500 lines, while keeping all important information.
-
-yeah start
-
-Bilkul bhai. Main same information ko clean + medium-detail format mein rewrite kar raha hoon — important cheezein rahengi, but unnecessary repetition nahi hogi.
-
 # 🐍 My Python Journey — 100 Days of Code
 
 > A practical journey from Python fundamentals to Data Analysis and Machine Learning through daily learning, coding, practice, and projects.
