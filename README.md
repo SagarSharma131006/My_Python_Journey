@@ -3,7 +3,7 @@
 > A practical journey from Python fundamentals to Data Analysis and Machine Learning through daily learning, coding, practice, and projects.
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
-![100 Days of Code](https://img.shields.io/badge/100%20Days%20of%20Code-Day%2020%2F100-orange)
+![100 Days of Code](https://img.shields.io/badge/100%20Days%20of%20Code-Day%2039%2F100-orange)
 ![GitHub](https://img.shields.io/badge/GitHub-My%20Python%20Journey-black?logo=github)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-success)
 
@@ -95,7 +95,22 @@ Starting from Day 21, the journey moves toward Data Analysis. NumPy will be used
 
 **Goal:** Build a practical understanding of NumPy and learn how arrays are used in Data Analysis and Machine Learning.
 
-**Status:** ⏳ Upcoming
+**Status:** ✅ Completed — Days 21–30
+
+### Progress
+
+| Day | Topic | Status |
+|---|---|---|
+| 21 | NumPy Introduction, Arrays & Indexing | ✅ |
+| 22 | Array Operations, Comparisons & Aggregations | ✅ |
+| 23 | Array Creation Methods | ✅ |
+| 24 | Indexing, Slicing & Reshaping | ✅ |
+| 25 | Boolean Indexing & Filtering | ✅ |
+| 26 | Sorting, Searching & Unique Values | ✅ |
+| 27 | Joining, Splitting, Copy & View | ✅ |
+| 28 | Random Number Generation | ✅ |
+| 29 | Mathematical Functions & Vectorization | ✅ |
+| 30 | Practical NumPy Consolidation | ✅ |
 
 ---
 
@@ -107,7 +122,63 @@ Pandas will be used for working with structured and tabular data.
 
 **Goal:** Learn how to load, clean, transform, and analyze real-world datasets.
 
-**Status:** ⏳ Upcoming
+**Status:** 🚧 In Progress — 9 / 10 days completed
+
+### Progress
+
+| Day | Topic | Status |
+|---|---|---|
+| 31 | Pandas Series & Basics | ✅ |
+| 32 | DataFrames & Basic Operations | ✅ |
+| 33 | Indexing, Selection & Filtering | ✅ |
+| 34 | Real-World CSV Inspection & Data Cleaning | ✅ |
+| 35 | Missing Values, Data Validation & Clean Dataset | ✅ |
+| 36 | GroupBy & Aggregation | ✅ |
+| 37 | Merging, Joining & Concatenation | ✅ |
+| 38 | Pivot Tables & Crosstab | ✅ |
+| 39 | Time Series & DateTime | ✅ |
+| 40 | Practical Consolidation & Revision | ⏳ Upcoming |
+
+### 🧹 Real-World Dataset Work
+
+**Dataset:** [Retail Store Sales — Dirty for Data Cleaning (Kaggle)](https://www.kaggle.com/datasets/ahmedmohamed2003/retail-store-sales-dirty-for-data-cleaning)
+
+Worked with a real-world retail transactions dataset and documented the cleaning and analysis process.
+
+| Metric | Result |
+|---|---:|
+| Raw dataset | 12,575 rows × 11 columns |
+| Cleaned dataset | 11,971 rows × 11 columns |
+| Missing values after cleaning | 0 |
+| Duplicate rows after cleaning | 0 |
+| Recovered missing unit prices | 609 |
+| Missing item names recovered | 1,213 |
+| Unspecified discounts retained as | `Unknown` |
+| Price × Quantity validation difference | 0.0 |
+
+The 604 records with missing Quantity or Total Spent could not be reliably recovered and were removed. Unknown discount values were not guessed as `True` or `False`.
+
+### 📊 Pandas Analysis Completed
+
+- Used `groupby()` and aggregation to compare sales, quantity, average sale, and transaction counts.
+- Used `merge()`, `join()`, and `concat()` to combine grouped results and subsets.
+- Used `pd.pivot_table()` and `pd.crosstab()` to compare sales by category, location, and payment method.
+- Converted transaction dates with `pd.to_datetime()` and extracted year, month, day, and weekday/month names.
+- Filtered transactions by date range, sorted records chronologically, and found earliest/latest transaction dates.
+- Used `resample("ME")` for monthly sales and `resample("D")` for daily sales.
+- Identified highest/lowest sales periods while accounting for incomplete January 2025 data.
+
+**Selected dataset insights:**
+- Total sales across the cleaned dataset: **1,552,071**
+- Online sales: **791,401**
+- In-store sales: **760,670**
+- Highest-sales category: **Butchers — 208,118**
+- Highest transaction-count category: **Furniture — 1,525**
+- 2024 transactions: **4,036**
+- 2024 sales: **524,881.0**
+- Highest daily sales: **9 April 2024 — 3,790.5**
+
+*Note: the dataset ends on 18 January 2025, so January 2025 is a partial month and should not be compared directly with complete months or years.*
 
 ---
 
@@ -312,18 +383,19 @@ Day 91: Start ML Project 01
 |---|---|
 | Python Fundamentals | 20 / 20 ✅ |
 | Python Mini Project | 1 / 1 ✅ |
-| NumPy | 0 / 10 |
-| Pandas | 0 / 10 |
+| NumPy | 10 / 10 ✅ |
+| Pandas | 9 / 10 🚧 |
 | Matplotlib + Seaborn | 0 / 10 |
 | Data Analysis Projects | 0 / 2 |
-| ML Core | 0 / 30 |
+| ML Core | 0 / 30 (Upcoming) |
 | ML Projects | 0 / 2 |
 
-**Current Progress:** Days Completed: 20 / 100
-**Current Phase:** Python Fundamentals ✅
+**Current Progress:** Days Completed: 39 / 100
+**Current Phase:** Pandas — Day 39 completed; Day 40 consolidation remains
 **Completed Project:** Student Management System ✅
-**Next Phase:** NumPy 🔢
-**Next Day:** Day 21
+**Completed Learning Phases:** Python Fundamentals (20/20) and NumPy (10/10)
+**Next Phase:** Matplotlib + Seaborn, after Day 40
+**Next Day:** Day 40 — Pandas Practical Consolidation
 
 ---
 
@@ -434,11 +506,11 @@ This repository is not about showing that I already know everything. It is about
 | Field | Value |
 |---|---|
 | Challenge | 100 Days of Code in Python |
-| Current Day | 20 / 100 |
-| Current Phase | Python Fundamentals Completed |
+| Current Day | 39 / 100 |
+| Current Phase | Pandas — Day 39 completed |
 | Projects Done | 1 |
-| Next Phase | NumPy |
-| Next Day | Day 21 |
+| Next Phase | Matplotlib + Seaborn (after Day 40) |
+| Next Day | Day 40 — Pandas Consolidation |
 | Status | 🚧 In Progress |
 
 ## 🌟 Final Objective
