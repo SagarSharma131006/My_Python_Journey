@@ -22,8 +22,8 @@ A day-by-day journey to learn Python, Data Analysis, Data Visualization, and Mac
 | 11–20 | Python Practice, Functions, and Mini Project | ✅ Completed |
 | 21–30 | NumPy — Arrays and Array Operations | ✅ Completed |
 | 31–40 | Pandas — Data Cleaning, Analysis, and Practical Exercises | ✅ Completed |
-| 41–50 | Data Visualization — Matplotlib and Seaborn | 🔄 In Progress |
-| 51–60 | Real-World Data Analysis Projects — Two Kaggle Datasets | ⏳ Planned |
+| 41–50 | Data Visualization — Matplotlib and Seaborn | ✅ Completed |
+| 51–60 | Real-World Data Analysis Projects — Two Kaggle Datasets | ✅ Completed |
 | 61–70 | Machine Learning Fundamentals with Scikit-learn | ⏳ Planned |
 | 71–80 | Supervised Machine Learning and Model Evaluation | ⏳ Planned |
 | 81–90 | ML Practice, Pipelines, and Model Improvement | ⏳ Planned |
@@ -94,14 +94,83 @@ A day-by-day journey to learn Python, Data Analysis, Data Visualization, and Mac
 - Day 47 — Matplotlib Customization and Styling
 - Day 48 — Seaborn Basics
 - Day 49 — Advanced Seaborn Visualizations
-- Day 50 — Retail Sales Visualization Dashboard
+- Day 50 — Visualization Consolidation
 
 ### Days 51–60: Real-World Data Analysis
 
-- Days 51–55 — Data Analysis Project 1 using a Kaggle dataset
-- Days 56–60 — Data Analysis Project 2 using a different Kaggle dataset
+Completed two end-to-end data analysis projects using separate Kaggle datasets.
 
-Each project will include data cleaning, exploratory analysis, visualizations, insights, and documented findings.
+#### Project 1: Telco Customer Churn Analysis
+
+**Days 51–55**
+
+**Dataset:** IBM Telco Customer Churn
+
+**Work Completed:**
+- Dataset understanding and exploration.
+- Data cleaning and preprocessing.
+- Missing value handling and duplicate checks.
+- Exploratory Data Analysis (EDA).
+- Customer churn and contract analysis.
+- Tenure, payment method, and service analysis.
+- Correlation analysis.
+- KPI dashboard creation.
+- Interactive dashboard using Streamlit and Plotly.
+
+**Key Findings:**
+- Total customers: 7,043.
+- Churned customers: 1,869.
+- Overall churn rate: 26.54%.
+- Month-to-month contract customers showed higher churn.
+- Customers with shorter tenure were more likely to churn.
+- Electronic check users showed a higher churn rate.
+
+**Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn, Streamlit, Plotly.
+
+#### Project 2: Bike Sharing Demand Analysis
+
+**Days 56–60**
+
+**Dataset:** Kaggle Bike Sharing Demand
+
+**Work Completed:**
+- Dataset understanding and exploration.
+- Data preprocessing and feature engineering.
+- Exploratory Data Analysis.
+- Advanced statistical analysis.
+- Monthly and seasonal demand analysis.
+- Hourly rental demand analysis.
+- Weather-wise demand analysis.
+- Casual vs Registered user analysis.
+- Working vs Non-Working day comparison.
+- KPI calculations and visual cards.
+- Six-chart dashboard creation.
+- Business insights and recommendations.
+- Project documentation and README creation.
+
+**Dataset Information:**
+- Total Records: 10,886.
+- Original Columns: 12.
+- Processed Columns: 24.
+- Target Variable: `count`.
+
+**Key Findings:**
+- June recorded the highest average monthly demand.
+- January recorded the lowest average monthly demand.
+- 5 PM was the busiest hour.
+- Fall recorded the highest seasonal demand.
+- Registered users contributed 81.2% of total rentals.
+- Clear weather was associated with higher average demand.
+- Working-day demand was slightly higher than non-working-day demand.
+
+**Business Recommendations:**
+- Increase bike availability during evening peak hours.
+- Plan inventory according to seasonal demand.
+- Improve registered customer retention.
+- Attract casual users through promotional offers.
+- Use weather forecasts for short-term demand planning.
+
+**Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn, Google Colab.
 
 ### Days 61–90: Machine Learning
 
@@ -118,17 +187,33 @@ Both projects will include preprocessing, model training, evaluation, conclusion
 
 ## 📊 Current Progress
 
-**Last completed day: Day 49**
+**Last completed day: Day 60 / 100**
 
-Currently working on the Matplotlib and Seaborn visualization phase using a retail sales dataset.
+<details>
+<summary>Completed learning milestones</summary>
 
-Recent work includes:
-- Customized Matplotlib charts with labels, annotations, and styling.
-- Seaborn bar plots, count plots, box plots, and scatter plots.
-- Correlation heatmaps, violin plots, pair plots, regression plots, and KDE visualizations.
-- Exploring sales patterns and relationships between numerical variables.
+- [x] Days 01–10 — Python Fundamentals
+- [x] Days 11–20 — Python Practice and Mini Project
+- [x] Days 21–30 — NumPy
+- [x] Days 31–40 — Pandas
+- [x] Days 41–50 — Matplotlib and Seaborn
+- [x] Days 51–55 — Telco Customer Churn Analysis
+- [x] Days 56–60 — Bike Sharing Demand Analysis
 
-**Next milestone:** Day 50 — Retail Sales Visualization Dashboard.
+</details>
+
+**Recent work includes:**
+
+- Data cleaning and preprocessing using Pandas.
+- Exploratory and advanced data analysis.
+- Statistical analysis and correlation studies.
+- Matplotlib and Seaborn visualizations.
+- KPI calculations and dashboard creation.
+- Interactive dashboard development.
+- Business insights and actionable recommendations.
+- Documentation of two real-world data analysis projects.
+
+**Next milestone:** Day 61 — Introduction to Machine Learning with Scikit-learn.
 
 ## 🛠️ Tools and Technologies
 
@@ -138,8 +223,10 @@ Recent work includes:
 - Pandas
 - Matplotlib
 - Seaborn
-- Kaggle datasets
-- Scikit-learn
+- Streamlit
+- Plotly
+- Kaggle Datasets
+- Scikit-learn (upcoming)
 - Git and GitHub
 
 ## 📁 Repository Structure
@@ -151,31 +238,37 @@ My_Python_Journey/
 ├── Day_1_Practice_Questions.py
 ├── Day_2_Operators.py
 ├── ...
+│
 ├── Day_21_Numpy_Basic.ipynb
 ├── ...
 ├── Day_40_Pandas_Practical_Consolidation.ipynb
+│
 ├── Day_41_Matplotlib_Introduction.ipynb
 ├── ...
-├── Day_47_Matplotlib_Customization_Styling.ipynb
-├── Day_48_Seaborn_Basics.ipynb
 ├── Day_49_Seaborn_Advanced_Visualizations.ipynb
 │
 ├── Data_Analysis_Projects/
-│   ├── Project_1/
-│   └── Project_2/
+│   │
+│   ├── Project_1_Telco_Customer_Churn/
+│   │
+│   └── Project_2_Bike_Sharing_Demand/
 │
 └── Machine_Learning_Projects/
+    │
     ├── Project_1/
+    │
     └── Project_2/
 ```
 
-*The structure above is a planned overview; project folders will be added as the projects are created.*
+*The project folder structure is an organizational overview. Actual files and folders will be added and maintained as they are uploaded to the repository.*
 
 ## 🌱 Learning Philosophy
 
 This journey focuses on understanding concepts, writing code independently, practicing consistently, and applying knowledge to practical problems rather than simply completing a fixed number of days.
 
 Each notebook documents progress and serves as a reference for revision and future projects.
+
+For real-world projects, the focus is on understanding datasets, asking meaningful questions, extracting insights, and communicating findings through visualizations and documentation.
 
 ## 🚀 Future Goal
 
@@ -184,3 +277,5 @@ Become job-ready for Data Analyst and Machine Learning internship opportunities 
 ---
 
 **Learning consistently. Building practically. Improving every day.**
+
+**Current Milestone: Day 60 / 100 — Completed! 🚀**
