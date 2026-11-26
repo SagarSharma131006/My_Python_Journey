@@ -28,8 +28,8 @@ A day-by-day journey to learn Python, Data Analysis, Data Visualization, and Mac
 | 51–60 | Real-World Data Analysis Projects — Two Kaggle Datasets | ✅ Completed |
 | 61–70 | Machine Learning Fundamentals with Scikit-learn | ✅ Completed |
 | 71–80 | Supervised Machine Learning and Model Evaluation | ✅ Completed |
-| 81–90 | ML Practice, Pipelines, Clustering, and Model Improvement | 🔄 In Progress (85/90) |
-| 91–100 | Two Machine Learning Portfolio Projects | ⏳ Planned |
+| 81–90 | ML Practice, Pipelines, Clustering, and Model Improvement | ✅ Completed |
+| 91–100 | Two Machine Learning Portfolio Projects | ✅ Completed |
 
 ---
 
@@ -102,9 +102,9 @@ A day-by-day journey to learn Python, Data Analysis, Data Visualization, and Mac
 
 ---
 
-## Days 51–60: Real-World Data Analysis Projects ✅
+## 📊 Days 51–60: Real-World Data Analysis Projects
 
-Completed two end-to-end data analysis projects using separate Kaggle datasets.
+Completed two end-to-end Data Analysis projects using separate Kaggle datasets.
 
 ### Project 1: Telco Customer Churn Analysis
 
@@ -180,21 +180,19 @@ Completed two end-to-end data analysis projects using separate Kaggle datasets.
 
 ---
 
-## Days 61–90: Machine Learning 🤖
+## 🤖 Days 61–90: Machine Learning
 
 ### Days 61–70: Machine Learning Fundamentals
 
 **Status: ✅ Completed**
 
-Introduction to Machine Learning, model training, regression, and core ML concepts using Scikit-learn.
-
-Topics covered across this phase include:
+Topics covered:
 - Introduction to Machine Learning.
 - ML workflow and fundamentals.
 - Regression concepts and model training.
 - Understanding model predictions.
-- Learning core Scikit-learn workflows.
-- Building foundations for supervised learning and model evaluation.
+- Core Scikit-learn workflows.
+- Foundations of supervised learning and model evaluation.
 
 ### Days 71–80: Supervised ML & Model Evaluation
 
@@ -207,8 +205,7 @@ Topics covered:
 - ROC and AUC.
 - Prediction probabilities and decision thresholds.
 - Imbalanced datasets.
-- GridSearchCV.
-- RandomizedSearchCV.
+- GridSearchCV and RandomizedSearchCV.
 - Feature selection.
 - Feature engineering.
 - Missing value handling and preprocessing.
@@ -217,98 +214,109 @@ Topics covered:
 
 ### Days 81–90: ML Practice, Pipelines & Model Improvement
 
-**Status: 🔄 In Progress — 5/10 Completed**
+**Status: ✅ Completed**
 
 - Day 81 — Scikit-learn Pipelines ✅
 - Day 82 — ColumnTransformer ✅
 - Day 83 — PCA (Principal Component Analysis) ✅
 - Day 84 — DBSCAN (Density-Based Clustering) ✅
 - Day 85 — Hierarchical Clustering ✅
-- Day 86 — Clustering Evaluation ⏳
-- Day 87 — Model Saving and Loading ⏳
-- Day 88 — Deployment Basics with Streamlit ⏳
-- Day 89 — Machine Learning Revision ⏳
-- Day 90 — Complete ML Mini Project ⏳
+- Day 86 — Clustering Evaluation ✅
+- Day 87 — Model Saving and Loading ✅
+- Day 88 — Deployment Basics with Streamlit ✅
+- Day 89 — Machine Learning Revision ✅
+- Day 90 — Complete ML Mini Project ✅
 
-### Recent Machine Learning Work
-
-**Day 81 — Scikit-learn Pipelines**
-- Built complete preprocessing and model pipelines.
-- Combined imputation, scaling, and Logistic Regression.
-- Compared manual workflow against Pipeline.
-- Verified that both workflows produced identical predictions.
-- Explored Pipeline steps and learned parameters.
-
-**Day 82 — ColumnTransformer**
-- Handled numerical and categorical features separately.
-- Numerical preprocessing using Median Imputation and StandardScaler.
-- Categorical preprocessing using Most Frequent Imputation and OneHotEncoder.
-- Combined different transformations using ColumnTransformer.
-- Integrated preprocessing with a classification pipeline.
-
-**Day 83 — PCA (Principal Component Analysis)**
-- Applied StandardScaler before PCA.
-- Reduced Breast Cancer dataset from 30 features to 2 principal components.
-- Studied explained variance ratio.
-- Visualized Benign vs Malignant samples in 2D.
-- Total variance retained by two components: 63.24%.
-
-**Day 84 — DBSCAN**
-- Applied density-based clustering using Scikit-learn.
-- Explored `eps` and `min_samples`.
-- Identified clusters and noise points.
-- Applied DBSCAN on a nonlinear `make_moons` dataset.
-- Identified 2 clusters and 2 noise points from 300 samples.
-
-**Day 85 — Hierarchical Clustering**
-- Learned Agglomerative Clustering.
-- Explored bottom-up cluster merging.
-- Applied Ward linkage.
-- Visualized clusters using scatter plots.
-- Created and interpreted a dendrogram.
-- Identified 3 clusters from 150 generated samples.
+**Key Learning:**
+- Building preprocessing and model pipelines.
+- Numerical and categorical feature transformations.
+- Dimensionality reduction using PCA.
+- Density-based clustering using DBSCAN.
+- Hierarchical clustering and dendrograms.
+- Clustering evaluation techniques.
+- Saving and loading trained models.
+- ML deployment fundamentals.
+- Revising and applying ML workflows.
 
 ---
 
-## Days 91–100: Machine Learning Portfolio Projects 🚀
+## 🚀 Days 91–100: Machine Learning Portfolio Projects
 
-**Status: ⏳ Planned**
+Completed two end-to-end Machine Learning projects covering data preparation, preprocessing, model training, evaluation, and final model verification.
 
-### Project 1 — Machine Learning Project
+### Project 1: Loan Approval Prediction
 
 **Days 91–95**
 
-Will include:
-- Dataset understanding and problem definition.
-- Data preprocessing.
-- Exploratory analysis.
-- Feature engineering.
-- Model selection and training.
-- Model evaluation.
-- Conclusions and documentation.
+**Project Type:** Classification
 
-### Project 2 — Machine Learning Project
+**Work Completed:**
+- Dataset understanding and problem definition.
+- Data preprocessing and missing-value handling.
+- Numerical and categorical feature processing.
+- Scaling and categorical encoding.
+- Model training and comparison.
+- Evaluation using classification metrics.
+- Final model selection.
+- Model saving, loading, and prediction verification.
+
+**Models Compared:**
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Support Vector Machine (SVM)
+
+**Best Model:** Logistic Regression
+
+**Results:**
+- Accuracy: 86.18%
+- F1 Score: 90.81%
+
+**Tools:** Python, Pandas, NumPy, Scikit-learn, Google Colab.
+
+### Project 2: House Price Prediction
 
 **Days 96–100**
 
-Will include:
-- Real-world dataset and problem statement.
-- Data cleaning and preprocessing.
-- Feature preparation.
-- Model training and comparison.
-- Performance evaluation.
-- Final conclusions.
-- Documentation and GitHub portfolio presentation.
+**Project Type:** Regression
 
-Both projects will focus on practical implementation and demonstrating the complete Machine Learning workflow.
+**Dataset:** Kaggle House Prices — Ames Housing Dataset
+
+**Work Completed:**
+- Dataset exploration and understanding.
+- Feature preparation.
+- Numerical and categorical preprocessing.
+- Missing-value handling.
+- Categorical encoding.
+- Model training and comparison.
+- Regression evaluation.
+- Pipeline-based preprocessing.
+- Final Random Forest model creation.
+- Model saving and loading.
+- Prediction verification.
+
+**Models Compared:**
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
+
+**Best Model:** Random Forest Regressor
+
+**Final Model Performance:**
+- MAE: 17,394.56
+- MSE: 806,350,063.93
+- RMSE: 28,396.30
+- R² Score: 0.894874 (~89.49%)
+
+**Tools:** Python, Pandas, NumPy, Scikit-learn, Google Colab.
 
 ---
 
-## 📊 Current Progress
+## 📈 Current Progress
 
-**Last completed day: Day 85 / 100**
+**Last completed day: Day 100 / 100**
 
-**Overall progress: 85%**
+**Overall progress: 100% 🎉**
 
 <details>
 <summary>Completed learning milestones</summary>
@@ -322,34 +330,33 @@ Both projects will focus on practical implementation and demonstrating the compl
 - [x] Days 56–60 — Bike Sharing Demand Analysis
 - [x] Days 61–70 — Machine Learning Fundamentals
 - [x] Days 71–80 — Supervised ML and Model Evaluation
-- [x] Days 81–85 — ML Pipelines, ColumnTransformer, PCA, DBSCAN, and Hierarchical Clustering
-- [ ] Days 86–90 — Clustering Evaluation, Model Saving, Deployment, Revision, and Mini Project
-- [ ] Days 91–95 — Machine Learning Portfolio Project 1
-- [ ] Days 96–100 — Machine Learning Portfolio Project 2
+- [x] Days 81–90 — ML Pipelines, PCA, Clustering, Model Saving, Deployment, and Revision
+- [x] Days 91–95 — Loan Approval Prediction
+- [x] Days 96–100 — House Price Prediction
 
 </details>
 
-**Recent work includes:**
+### Skills Practiced Throughout the Journey
 
-- Data cleaning and preprocessing using Pandas.
-- Exploratory and advanced data analysis.
-- Statistical analysis and correlation studies.
-- Matplotlib and Seaborn visualizations.
-- KPI calculations and dashboard creation.
+- Python programming and problem-solving.
+- Data cleaning and preprocessing.
+- Exploratory Data Analysis.
+- Statistical analysis and correlation.
+- Data visualization using Matplotlib and Seaborn.
+- KPI calculations and dashboards.
 - Interactive dashboard development.
-- Business insights and actionable recommendations.
-- Documentation of two real-world data analysis projects.
-- Supervised Machine Learning model training and evaluation.
-- Classification metrics and model comparison.
+- Business insights and recommendations.
+- Supervised Machine Learning.
+- Regression and classification.
+- Model evaluation and comparison.
 - Cross-validation and hyperparameter tuning.
 - Feature selection and feature engineering.
-- Handling missing values and categorical data.
+- Missing value handling and categorical encoding.
 - Scikit-learn Pipelines and ColumnTransformer.
-- PCA and dimensionality reduction.
+- Dimensionality reduction using PCA.
 - Density-based and hierarchical clustering.
-- Clustering visualization and interpretation.
-
-**Next milestone:** Day 86 — Clustering Evaluation.
+- Model persistence and prediction.
+- Machine Learning workflow implementation.
 
 ---
 
@@ -375,39 +382,37 @@ Both projects will focus on practical implementation and demonstrating the compl
 ```text
 My_Python_Journey/
 │
-├── Day_1_Data_Types.py
-├── Day_1_Practice_Questions.py
-├── Day_2_Operators.py
-├── ...
+├── Python_Fundamentals/
+│   ├── Day_1 ...
+│   └── Day_20 ...
 │
-├── Day_21_Numpy_Basic.ipynb
-├── ...
-├── Day_40_Pandas_Practical_Consolidation.ipynb
+├── NumPy/
+│   └── Day_21 ... Day_30
 │
-├── Day_41_Matplotlib_Introduction.ipynb
-├── ...
-├── Day_49_Seaborn_Advanced_Visualizations.ipynb
+├── Pandas/
+│   └── Day_31 ... Day_40
 │
-├── Day_61_Machine_Learning_...
-├── ...
-├── Day_85_Hierarchical_Clustering.ipynb
-├── Day_86_Clustering_Evaluation.ipynb
-├── ...
+├── Data_Visualization/
+│   └── Day_41 ... Day_50
 │
 ├── Data_Analysis_Projects/
-│   │
 │   ├── Project_1_Telco_Customer_Churn/
-│   │
 │   └── Project_2_Bike_Sharing_Demand/
 │
-└── Machine_Learning_Projects/
-    │
-    ├── Project_1/
-    │
-    └── Project_2/
+├── Machine_Learning/
+│   ├── Day_61 ... Day_90
+│   │
+│   └── Machine_Learning_Projects/
+│       ├── Project_1_Loan_Approval_Prediction/
+│       │   └── Days_91–95
+│       │
+│       └── Project_2_House_Price_Prediction/
+│            └── Days_96–100
+│
+└── README.md
 ```
 
-*The project folder structure is an organizational overview. Actual files and folders will be added and maintained as they are uploaded to the repository.*
+*The structure above represents the learning journey and project organization. Notebook files are maintained in the repository.*
 
 ---
 
@@ -421,12 +426,12 @@ For real-world projects, the focus is on understanding datasets, asking meaningf
 
 ---
 
-## 🚀 Future Goal
+## 🎯 Future Goal
 
-Become job-ready for Data Analyst and Machine Learning internship opportunities by building strong fundamentals, demonstrating practical skills, and developing a public portfolio of projects.
+With the completion of this 100-day journey, the next step is to strengthen practical skills through advanced projects, improve problem-solving abilities, build portfolio-quality applications, and prepare for Data Analyst and Machine Learning internship/job opportunities.
 
 ---
 
 **Learning consistently. Building practically. Improving every day.**
 
-**Current Milestone: Day 85 / 100 — Completed! 🚀**
+**100 Days Completed — The Journey Continues 🚀**
